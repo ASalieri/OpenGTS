@@ -1,0 +1,29 @@
+
+Version 2.5.3 [2014/01/01]
+- NEW: Added additional status codes.
+- NEW: Added generalized replacement handling to SMSOutboundGateway.java
+- NEW: "Driving/Stopped Time Summary" report supported in Fleet/Group detail reports.
+- NEW: Added disk utilization checking to "checkInstall" command.
+- NEW: Added "equipmentStatus" / "licenseExpire" columns to Device table.
+- NEW: Added additional fields to report FieldLayout.
+- NEW: Added fleet detail reporting support to MotionReport.
+- CHG: "Driving/Stopped Time Summary" report moved to Device/Vehicle Detail reports.
+- DCS: gprmc] Added support for CellTower lookup (thanks to STefan Mayer)
+- DCS: template] fixed "createGPSEvent" to property set "lastModemID".
+
+-----------------------------------------------------------------------------------
+
+Project Home Page:
+    http://www.opengts.org
+
+Download Latest Version from SourceForge:
+    https://sourceforge.net/projects/opengts/
+
+Documentation (installation/configuration, tutorials, FAQ):
+    http://www.opengts.org/FAQ.html
+    http://www.opengts.org/documentation.html
+
+GTS Enterprise:
+    http://www.geotelematic.com/gts.html
+    http://www.geotelematic.com/documentation.html
+
