@@ -58,6 +58,8 @@
      -->
 
     <!-- ================================================================================ -->
+    <Include file="dcserver_xirgo.xml" optional="false"/>
+
     <Include file="dcserver_template.xml" optional="true"/>
     <DCServer name="template">
     

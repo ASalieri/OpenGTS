@@ -48,12 +48,14 @@
 // ----------------------------------------------------------------------------
 package org.opengts;
 
+import org.opengts.util.DateTime;
+import org.opengts.util.RTConfig;
+import org.opengts.util.RTKey;
+import org.opengts.util.RTProperties;
+
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.TimeZone;
-import java.text.SimpleDateFormat;
-
-import org.opengts.util.*;
 
 /**
 *** This class provides runtime version information to the OpenGTS modules.
@@ -65,7 +67,7 @@ public class Version
     // ------------------------------------------------------------------------
 
     // "public" as of 2.3.4-B06
-    public  static final String COPYRIGHT = "Copyright 2007-2014, GeoTelematic Solutions, Inc.";
+    public  static final String COPYRIGHT = "Copyright 2014, GeoTelematic Solutions, Inc.";
 
     // ------------------------------------------------------------------------
 

@@ -102,8 +102,8 @@ File     : build.xml
   </target>
 
   <!-- Target: compile.servers -->
-  <target name="compile.servers" depends="compile.base,gtsdmtp,icare,aspicore,astra,tk10x,sipgear,taip,lantrix,template" 
-    description="Build Servers">
+  <target name="compile.servers" depends="compile.base,gtsdmtp,icare,aspicore,astra,tk10x,sipgear,taip,lantrix,template,xirgo"
+            description="Build Servers">
     <echo message="Servers compiled ..."/>
   </target>
 
@@ -1730,6 +1730,44 @@ File     : build.xml
     </jar>
 
   </target>
+
+  <!-- ======================================================================== -->
+  <!-- ======================================================================== -->
+
+    <!-- Target: Device Parser Module for Xirgo devices (based on template example) -->
+    <target name="xirgo" depends="prepare,gtsdb"
+            description="Create 'Device Communication Server' Xirgo ...">
+        <echo message="Xirgo ..."/>
+
+        <!-- compile xirgo -->
+        <javac srcdir="${src.gts}"
+               includeAntRuntime="false"
+               source="${compiler.source}"
+               target="${compiler.target}"
+               destdir="${build.home}"
+               debug="${compile.debug}"
+               nowarn="${compile.nowarn}"
+               deprecation="${compile.deprecation}"
+               optimize="${compile.optimize}">
+            <compilerarg compiler="${compiler.compiler}" value="${compile.Xlint}"/>
+            <classpath refid="compile.classpath"/>
+            <include name="org/opengts/servers/*.java"/>
+            <include name="org/opengts/servers/xirgo/**/*.java"/>
+        </javac>
+
+        <!-- create xirgo.jar server -->
+        <jar jarfile="${build.lib}/xirgo.jar">
+            <manifest>
+                <attribute name="Class-Path" value="${Server_Jar_Classpath}"/>
+                <attribute name="Main-Class" value="org.opengts.servers.xirgo.Main"/>
+            </manifest>
+            <fileset dir="${build.home}">
+                <include name="org/opengts/servers/*.class"/>
+                <include name="org/opengts/servers/xirgo/**/*.class"/>
+            </fileset>
+        </jar>
+
+    </target>
 
   <!-- ======================================================================== -->
   <!-- ======================================================================== -->

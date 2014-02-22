@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="716b720b-bae0-4c58-8596-130198ee6c21" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dcservers/dcserver_xirgo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/Version.java" afterPath="$PROJECT_DIR$/src/org/opengts/Version.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dcservers.xml" afterPath="$PROJECT_DIR$/dcservers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OpenGTS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,10 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Main.java">
+      <file leaf-file-name="DCServerConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DCServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="14" selection-start="7295" selection-end="7295" vertical-scroll-proportion="8.333333" vertical-offset="2445" max-vertical-offset="3390">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="58920">
               <folding />
             </state>
           </provider>
@@ -83,17 +87,19 @@
       <file leaf-file-name="TrackServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="13" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.0" vertical-offset="4561" max-vertical-offset="4950">
+            <state line="73" column="46" selection-start="3006" selection-end="3022" vertical-scroll-proportion="-4.185185" vertical-offset="442" max-vertical-offset="4950">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrackClientPacketHandler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TrackClientPacketHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="742" column="36" selection-start="34514" selection-end="34514" vertical-scroll-proportion="-12.833788" vertical-offset="14265" max-vertical-offset="19650">
-              <folding />
+            <state line="540" column="23" selection-start="24826" selection-end="24829" vertical-scroll-proportion="-4.185185" vertical-offset="7777" max-vertical-offset="21015">
+              <folding>
+                <element signature="e#0#63562#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,19 +140,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
+      <file leaf-file-name="dcservers.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dcservers.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="39" selection-start="5221" selection-end="5221" vertical-scroll-proportion="0.0" vertical-offset="563" max-vertical-offset="1335">
-              <folding />
+            <state line="39" column="51" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2205">
+              <folding>
+                <element signature="tag#DCServer#1;tag#DCServerConfig#0" expanded="false" />
+                <element signature="tag#DCServer#2;tag#DCServerConfig#0" expanded="false" />
+                <element signature="tag#DCServer#3;tag#DCServerConfig#0" expanded="false" />
+                <element signature="tag#DCServer#4;tag#DCServerConfig#0" expanded="false" />
+                <element signature="tag#DCServer#5;tag#DCServerConfig#0" expanded="false" />
+                <element signature="tag#DCServer#6;tag#DCServerConfig#0" expanded="false" />
+                <element signature="tag#DCServer#7;tag#DCServerConfig#0" expanded="false" />
+                <element signature="tag#DCServer#8;tag#DCServerConfig#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DCServerFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DCServerFactory.java">
+      <file leaf-file-name="dcserver_xirgo.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dcservers/dcserver_xirgo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1196" column="29" selection-start="66716" selection-end="66716" vertical-scroll-proportion="-10.407408" vertical-offset="16774" max-vertical-offset="50325">
+            <state line="48" column="36" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.9182561" vertical-offset="383" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -179,6 +194,10 @@
         <option value="$PROJECT_DIR$/src/org/opengts/Version.java" />
         <option value="$PROJECT_DIR$/src/org/opengts/db/DCServerFactory.java" />
         <option value="$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/dcservers.xml" />
+        <option value="$PROJECT_DIR$/dcserver_xirgo.xml" />
+        <option value="$PROJECT_DIR$/dcservers/dcserver_xirgo.xml" />
       </list>
     </option>
   </component>
@@ -244,111 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xirgo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tk10x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="dcservers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,17 +287,19 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/org/opengts/servers/xirgo" />
       <recent name="$PROJECT_DIR$/src/org/opengts/servers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/org/opengts/servers/xirgo" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.opengts.servers.xirgo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dcservers" />
+      <recent name="$PROJECT_DIR$/src/org/opengts/servers/xirgo" />
     </key>
   </component>
   <component name="RunManager">
@@ -554,11 +471,13 @@
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="105" y="127" width="1162" height="542" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -571,11 +490,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25679758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="105" y="127" width="1162" height="542" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -611,7 +528,10 @@
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="86" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1800">
-          <folding />
+          <folding>
+            <element signature="e#0#5277#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -639,7 +559,10 @@
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="86" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1800">
-          <folding />
+          <folding>
+            <element signature="e#0#5277#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +590,10 @@
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="86" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1800">
-          <folding />
+          <folding>
+            <element signature="e#0#5277#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,13 +671,6 @@
         <state line="119" column="16" selection-start="5620" selection-end="5620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="396" selection-end="396" vertical-scroll-proportion="0.11950791" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/GPSEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="10" selection-start="3517" selection-end="3517" vertical-scroll-proportion="-0.23050848" vertical-offset="0" max-vertical-offset="0" />
@@ -794,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DCServerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1196" column="29" selection-start="66716" selection-end="66716" vertical-scroll-proportion="-10.407408" vertical-offset="16774" max-vertical-offset="50325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="37" selection-start="1761" selection-end="1761" vertical-scroll-proportion="-5.62234" vertical-offset="2354" max-vertical-offset="2820">
@@ -811,27 +723,6 @@
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/TrackClientPacketHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="24" selection-start="3488" selection-end="3494" vertical-scroll-proportion="0.3470437" vertical-offset="60" max-vertical-offset="21240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="14" selection-start="7295" selection-end="7295" vertical-scroll-proportion="8.333333" vertical-offset="2445" max-vertical-offset="3390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="13" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.0" vertical-offset="4561" max-vertical-offset="4950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="39" selection-start="5221" selection-end="5221" vertical-scroll-proportion="0.0" vertical-offset="563" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
@@ -850,9 +741,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2302" column="80" selection-start="92110" selection-end="92110" vertical-scroll-proportion="0.41416892" vertical-offset="34378" max-vertical-offset="34815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="742" column="36" selection-start="34514" selection-end="34514" vertical-scroll-proportion="-12.833788" vertical-offset="14265" max-vertical-offset="19650">
+        <state line="540" column="23" selection-start="24826" selection-end="24829" vertical-scroll-proportion="-4.185185" vertical-offset="7777" max-vertical-offset="21015">
+          <folding>
+            <element signature="e#0#63562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DCServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="58920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="46" selection-start="3006" selection-end="3022" vertical-scroll-proportion="-4.185185" vertical-offset="442" max-vertical-offset="4950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DCServerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1548" column="49" selection-start="80384" selection-end="80384" vertical-scroll-proportion="-5.148148" vertical-offset="22196" max-vertical-offset="50325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="28" selection-start="9891" selection-end="9891" vertical-scroll-proportion="-4.185185" vertical-offset="2872" max-vertical-offset="3390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="2" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#0#5277#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcservers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="51" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2205">
+          <folding>
+            <element signature="tag#DCServer#1;tag#DCServerConfig#0" expanded="false" />
+            <element signature="tag#DCServer#2;tag#DCServerConfig#0" expanded="false" />
+            <element signature="tag#DCServer#3;tag#DCServerConfig#0" expanded="false" />
+            <element signature="tag#DCServer#4;tag#DCServerConfig#0" expanded="false" />
+            <element signature="tag#DCServer#5;tag#DCServerConfig#0" expanded="false" />
+            <element signature="tag#DCServer#6;tag#DCServerConfig#0" expanded="false" />
+            <element signature="tag#DCServer#7;tag#DCServerConfig#0" expanded="false" />
+            <element signature="tag#DCServer#8;tag#DCServerConfig#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcservers.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="263" selection-end="271" vertical-scroll-proportion="0.3181818" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcservers/dcserver_xirgo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="36" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.9182561" vertical-offset="383" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
