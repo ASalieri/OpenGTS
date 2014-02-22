@@ -17,7 +17,7 @@
 //
 // ----------------------------------------------------------------------------
 // Description:
-//  Main Entry point for a Template example server
+//  Main Entry point for a Xirgo example server
 // ----------------------------------------------------------------------------
 // Change History:
 //  2006/06/30  Martin D. Flynn

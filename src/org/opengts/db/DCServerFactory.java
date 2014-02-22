@@ -48,19 +48,27 @@
 // ----------------------------------------------------------------------------
 package org.opengts.db;
 
-import java.lang.*;
-import java.util.*;
-import java.io.*;
-import java.net.*;
-
-import javax.xml.parsers.*;
-import org.w3c.dom.*;
-import org.xml.sax.*;
-
+import org.opengts.db.tables.Account;
+import org.opengts.db.tables.Device;
+import org.opengts.db.tables.EventData;
+import org.opengts.db.tables.Transport;
+import org.opengts.dbtools.DBException;
 import org.opengts.util.*;
-import org.opengts.dbtools.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
-import org.opengts.db.tables.*;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.IOException;
+import java.net.ConnectException;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.*;
 
 public class DCServerFactory
 {
@@ -142,6 +150,8 @@ public class DCServerFactory
     public static final String  ASPICORE_NAME                   = "aspicore";       // [31265] 3x265
     public static final String  TK10X_NAME                      = "tk10x";          // [31272] 3x272
     public static final String  TAIP_NAME                       = "taip";           // [31275] 3x275
+
+    public static final String  XIRGO_NAME                   = "xirgo";
 
     // ------------------------------------------------------------------------
     // ------------------------------------------------------------------------

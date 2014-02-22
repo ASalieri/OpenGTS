@@ -52,7 +52,7 @@ public class Constants
     
     // ------------------------------------------------------------------------
 
-    public static final String  DEVICE_CODE             = DCServerFactory.TEMPLATE_NAME;
+    public static final String  DEVICE_CODE             = DCServerFactory.XIRGO_NAME;
     
     // ------------------------------------------------------------------------
 

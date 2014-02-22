@@ -21,6 +21,6 @@
 //     -Initial release
 // ----------------------------------------------------------------------------
 /**
-*** Contains the example 'Template' device communication server support.
+*** Contains the 'Xirgo' device communication server support (based on 'Template' server).
 **/
 package org.opengts.servers.xirgo;
