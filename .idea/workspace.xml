@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="716b720b-bae0-4c58-8596-130198ee6c21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java" afterPath="$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/db/DCServerFactory.java" afterPath="$PROJECT_DIR$/src/org/opengts/db/DCServerFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/servers/xirgo/Main.java" afterPath="$PROJECT_DIR$/src/org/opengts/servers/xirgo/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dcservers/dcserver_xirgo.xml" afterPath="$PROJECT_DIR$/dcservers/dcserver_xirgo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/servers/xirgo/package-info.java" afterPath="$PROJECT_DIR$/src/org/opengts/servers/xirgo/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OpenGTS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,16 +74,36 @@
       <file leaf-file-name="TrackServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="349" column="40" selection-start="12894" selection-end="12894" vertical-scroll-proportion="-5.296296" vertical-offset="3967" max-vertical-offset="4950">
+            <state line="346" column="72" selection-start="12877" selection-end="12877" vertical-scroll-proportion="-3.6296296" vertical-offset="3967" max-vertical-offset="4950">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dcserver_xirgo.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TrackClientPacketHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1325" column="45" selection-start="60550" selection-end="60550" vertical-scroll-proportion="0.30591258" vertical-offset="19546" max-vertical-offset="21015">
+              <folding>
+                <element signature="e#0#63562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dcserver_xirgo.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dcservers/dcserver_xirgo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+            <state line="8" column="55" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1737" column="42" selection-start="69532" selection-end="69532" vertical-scroll-proportion="0.0" vertical-offset="25893" max-vertical-offset="34815">
               <folding />
             </state>
           </provider>
@@ -747,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1773" column="50" selection-start="71036" selection-end="71036" vertical-scroll-proportion="0.0" vertical-offset="26473" max-vertical-offset="34815">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="64" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.12806539" vertical-offset="688" max-vertical-offset="1800">
@@ -768,15 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="32" selection-start="923" selection-end="923" vertical-scroll-proportion="0.33242506" vertical-offset="163" max-vertical-offset="3810">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1288" column="50" selection-start="58958" selection-end="58958" vertical-scroll-proportion="-4.185185" vertical-offset="18997" max-vertical-offset="21015">
-          <folding>
-            <element signature="e#0#63562#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="349" column="40" selection-start="12894" selection-end="12894" vertical-scroll-proportion="-5.296296" vertical-offset="3967" max-vertical-offset="4950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dcservers.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="1598" selection-end="1680" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2205">
@@ -847,8 +840,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dcservers/dcserver_xirgo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+        <state line="8" column="55" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1737" column="42" selection-start="69532" selection-end="69532" vertical-scroll-proportion="0.0" vertical-offset="25893" max-vertical-offset="34815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="346" column="72" selection-start="12877" selection-end="12877" vertical-scroll-proportion="-3.6296296" vertical-offset="3967" max-vertical-offset="4950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1325" column="45" selection-start="60550" selection-end="60550" vertical-scroll-proportion="0.30591258" vertical-offset="19546" max-vertical-offset="21015">
+          <folding>
+            <element signature="e#0#63562#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
