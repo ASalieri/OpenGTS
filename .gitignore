@@ -4,3 +4,8 @@
 *.jar
 *.war
 *.ear
+
+# Private Files #
+private.xml
+logs/*
+build/*
