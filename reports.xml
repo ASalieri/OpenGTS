@@ -787,6 +787,37 @@
     ===    sysadmin.summary
     -->
 
+    <!-- ======================================================================================= -->
+    <!-- ======================================================================================= -->
+    <!-- ifta.detail =========================================================================== -->
+
+    <Report name="IftaDetail" type="ifta.detail"
+            class="org.opengts.war.report.IftaDetailReport"
+            layout="org.opengts.war.report.ifta.IftaDetailLayout"
+            modules="extra"
+            optional="true"
+            sortable="false"
+            >
+        <MenuDescription i18n="ReportsXML.borderCrossDetail.menu">State Border-Crossing Summary</MenuDescription>
+        <Title i18n="ReportsXML.borderCrossDetail.title">State Border-Crossing Summary</Title>
+        <Subtitle i18n="ReportsXML.borderCrossDetail.subtitle">${deviceDesc} [${deviceId}]\n${dateRange}</Subtitle>
+        <Columns>
+            <Column name="index"                       />
+            <Column name="subdivision"                 />
+            <Column name="subdivName"                  />
+            <Column name="enterDateTime"               />
+            <Column name="enterOdometer"       arg="1" />
+            <Column name="exitDateTime"                />
+            <Column name="exitOdometer"        arg="1" />
+            <Column name="distanceTraveled"    arg="1" />
+        </Columns>
+        <MapIconSelector ruleFactoryName="GTSRulesEngine,SecureENRE,ENRE">
+            <!-- an installed "RuleFactory" implementation is required which can analyze this iconSelector -->
+            <![CDATA[ ((speed<5)?"reddot":"heading") ]]>
+        </MapIconSelector>
+    </Report>
+
+
    <!-- ======================================================================================= -->
    <!-- ======================================================================================= -->
    <!-- device.detail ========================================================================= -->
@@ -4018,14 +4049,10 @@
       </Constraints>
    </Report>
 
-   <!-- ======================================================================================= -->
-   <!-- ======================================================================================= -->
-   <!-- ifta.detail =========================================================================== -->
-
    <!-- OPTIONAL REPORT: may not be supported in all releases -->
    <!-- BorderCrossing report showing all state-line crossings -->
    <Report name="BCrossDetail" type="ifta.detail"
-        class="org.opengts.bcross.war.report.StateMileageDetailReport" 
+        class="org.opengts.bcross.war.report.StateMileageDetailReport"
         layout="org.opengts.bcross.war.report.BCLayout"
         modules="bcross"
         optional="true"
@@ -4047,7 +4074,7 @@
       <MapIconSelector ruleFactoryName="GTSRulesEngine,SecureENRE,ENRE">
         <!-- an installed "RuleFactory" implementation is required which can analyze this iconSelector -->
         <![CDATA[ ((speed<5)?"reddot":"heading") ]]>
-      </MapIconSelector> 
+      </MapIconSelector>
    </Report>
 
    <!-- OPTIONAL REPORT: may not be supported in all releases -->
