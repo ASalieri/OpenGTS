@@ -7,15 +7,15 @@ import org.opengts.war.report.ReportLayout;
  * Created by lazar on 2/22/14.
  */
 
-public class IftaDetailLayout
+public class DetailLayout
         extends ReportLayout
 {
-    private static IftaDetailLayout reportDef = null;
+    private static DetailLayout reportDef = null;
 
     public static ReportLayout getReportLayout()
     {
         if (reportDef == null) {
-            reportDef = new IftaDetailLayout();
+            reportDef = new DetailLayout();
         }
         return reportDef;
     }
@@ -23,7 +23,7 @@ public class IftaDetailLayout
     /**
      *** Standard singleton constructor
      **/
-    private IftaDetailLayout()
+    private DetailLayout()
     {
         super();
         this.setDataRowTemplate(new IftaDataRow());

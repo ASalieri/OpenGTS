@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="java-jre">
+    <CLASSES>
+      <root url="jar:///usr/local/java/jre/lib/ext/dnsns.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/java-atk-wrapper.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/javax.mail.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/localedata.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/mysql-connector-java-5.1.17.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/pulse-java.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/sunjce_provider.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/sunpkcs11.jar!/" />
+      <root url="jar:///usr/local/java/jre/lib/ext/zipfs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -6,6 +6,6 @@
 *.ear
 
 # Private Files #
-private.xml
+#private.xml
 logs/*
 build/*

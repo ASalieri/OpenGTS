@@ -792,9 +792,8 @@
     <!-- ifta.detail =========================================================================== -->
 
     <Report name="IftaDetail" type="ifta.detail"
-            class="org.opengts.war.report.IftaDetailReport"
-            layout="org.opengts.war.report.ifta.IftaDetailLayout"
-            modules="extra"
+            class="org.opengts.war.report.ifta.DetailReport"
+            layout="org.opengts.war.report.ifta.DetailLayout"
             optional="true"
             sortable="false"
             >

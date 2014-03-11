@@ -6,11 +6,11 @@ import org.opengts.war.tools.RequestProperties;
 /**
  * Created by lazar on 2/22/14.
  */
-public class IftaDetailReport
+public class DetailReport
         extends ReportData
 {
 
-    public IftaDetailReport(ReportEntry rptEntry, RequestProperties reqState, ReportDeviceList devList)
+    public DetailReport(ReportEntry rptEntry, RequestProperties reqState, ReportDeviceList devList)
             throws ReportException {
         super(rptEntry, reqState, devList);
 
@@ -36,7 +36,7 @@ public class IftaDetailReport
      */
     public static ReportLayout GetReportLayout() {
         // bind the report format to this data
-        return IftaDetailLayout.getReportLayout();
+        return DetailLayout.getReportLayout();
     }
 
     /**
