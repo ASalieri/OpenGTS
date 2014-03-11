@@ -1,231 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java" line="1062" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java" line="1275" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java" line="728" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="716b720b-bae0-4c58-8596-130198ee6c21" name="Default" comment="Minor project changes&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/common.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/config.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/custom.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/private.dtd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/system.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/events/WEB-INF/webapp.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/common.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/config.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/custom.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/private.dtd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/system.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gc101/WEB-INF/webapp.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/common.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/config.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/custom.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/private.dtd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/system.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gprmc/WEB-INF/webapp.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/common.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/config.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/custom.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/private.dtd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/system.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/gpsmapper/WEB-INF/webapp.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/dmtpserv.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/lib/gtsdb.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/common.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/config.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/custom.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/private.dtd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/system.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/mologogo/WEB-INF/webapp.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/dmtp/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/db/tables/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/tools/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/util/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/maps/jsmap/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/event/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/field/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/report/presentation/LocalStrings_tr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_el.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_hu.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_ro.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_sk.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_sr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/org/opengts/war/tools/LocalStrings_tr.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenGTS.iml" afterPath="$PROJECT_DIR$/OpenGTS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java" afterPath="$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuBrongusIFTA.java" afterPath="$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuBrongusIFTA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/war/track/page/TopMenu.java" afterPath="$PROJECT_DIR$/src/org/opengts/war/track/page/TopMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/opengts/war/track/Track.java" afterPath="$PROJECT_DIR$/src/org/opengts/war/track/Track.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private.xml" afterPath="$PROJECT_DIR$/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports.xml" afterPath="$PROJECT_DIR$/reports.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system.conf" afterPath="$PROJECT_DIR$/system.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OpenGTS.iws" />
@@ -286,6 +73,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/org/opengts/war/track/Track.java" line="1820" class="org.opengts.war.track.Track" package="org.opengts.war.track">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuIFTA.java" line="57" class="org.opengts.war.track.page.ReportMenuIFTA" package="org.opengts.war.track.page">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -295,10 +114,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="private.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1286" column="12" selection-start="93340" selection-end="93403" vertical-scroll-proportion="0.0" vertical-offset="19018" max-vertical-offset="21300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportMenuIFTA.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuIFTA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="33" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="728" column="12" selection-start="32677" selection-end="32677" vertical-scroll-proportion="0.0" vertical-offset="10696" max-vertical-offset="33285">
+              <folding>
+                <element signature="e#0#105947#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#25225#25233#0" expanded="true" />
+                <element signature="e#27739#27747#0" expanded="true" />
+                <element signature="e#36652#36671#0" expanded="true" />
+                <element signature="e#39091#39105#0" expanded="true" />
+                <element signature="e#45319#45333#0" expanded="true" />
+                <element signature="e#58348#58369#0" expanded="true" />
+                <element signature="e#62481#62502#0" expanded="true" />
+                <element signature="e#64761#64782#0" expanded="true" />
+                <element signature="e#70226#70234#0" expanded="true" />
+                <element signature="e#99925#99940#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Track.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/Track.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="900" column="67" selection-start="41416" selection-end="41416" vertical-scroll-proportion="0.0" vertical-offset="12015" max-vertical-offset="26550">
+            <state line="144" column="67" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="1468" max-vertical-offset="27405">
+              <folding>
+                <element signature="e#0#86774#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportMenuBrongusIFTA.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuBrongusIFTA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="56" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.44474393" vertical-offset="0" max-vertical-offset="555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/db/tables/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2088" column="61" selection-start="91964" selection-end="91986" vertical-scroll-proportion="0.0" vertical-offset="29191" max-vertical-offset="71130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DBConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="127" column="76" selection-start="6779" selection-end="6779" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="23190">
               <folding />
             </state>
           </provider>
@@ -307,17 +195,42 @@
       <file leaf-file-name="reports.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reports.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="810" column="67" selection-start="47417" selection-end="47417" vertical-scroll-proportion="0.0" vertical-offset="11955" max-vertical-offset="62010">
+            <state line="857" column="28" selection-start="50291" selection-end="50291" vertical-scroll-proportion="0.0" vertical-offset="12718" max-vertical-offset="61995">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="private.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/private.xml">
+      <file leaf-file-name="ExpandMenu.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/ExpandMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1369" column="29" selection-start="97462" selection-end="97462" vertical-scroll-proportion="1.387931" vertical-offset="20052" max-vertical-offset="21345">
+            <state line="122" column="26" selection-start="4602" selection-end="4602" vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="4095">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuGroup.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/MenuGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="31" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0" vertical-offset="1239" max-vertical-offset="2085">
+              <folding>
+                <element signature="e#0#5587#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2426#2427#0" expanded="false" />
+                <element signature="e#2465#2466#0" expanded="false" />
+                <element signature="e#2783#2784#0" expanded="false" />
+                <element signature="e#2822#2823#0" expanded="false" />
+                <element signature="e#3121#3122#0" expanded="false" />
+                <element signature="e#3153#3154#0" expanded="false" />
+                <element signature="e#3234#3235#0" expanded="false" />
+                <element signature="e#3266#3267#0" expanded="false" />
+                <element signature="e#3449#3450#0" expanded="false" />
+                <element signature="e#3483#3484#0" expanded="false" />
+                <element signature="e#3844#3845#0" expanded="false" />
+                <element signature="e#3883#3884#0" expanded="false" />
+                <element signature="e#4935#4944#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -357,9 +270,14 @@
         <option value="$PROJECT_DIR$/src/org/opengts/war/report/ifta/IftaDetailLayout.java" />
         <option value="$PROJECT_DIR$/src/org/opengts/war/report/ifta/IftaDetailReport.java" />
         <option value="$PROJECT_DIR$/system.conf" />
-        <option value="$PROJECT_DIR$/src/org/opengts/war/track/Track.java" />
+        <option value="$PROJECT_DIR$/src/org/opengts/war/track/page/AccountLogin.java" />
+        <option value="$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailLayout.java" />
         <option value="$PROJECT_DIR$/reports.xml" />
+        <option value="$PROJECT_DIR$/src/org/opengts/war/track/page/TopMenu.java" />
+        <option value="$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuBrongusIFTA.java" />
         <option value="$PROJECT_DIR$/private.xml" />
+        <option value="$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java" />
+        <option value="$PROJECT_DIR$/src/org/opengts/war/track/Track.java" />
       </list>
     </option>
   </component>
@@ -368,6 +286,70 @@
     <option name="y" value="27" />
     <option name="width" value="1368" />
     <option name="height" value="742" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -395,8 +377,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -454,6 +434,62 @@
               <option name="myItemId" value="war" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opengts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opengts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -481,8 +517,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opengts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ifta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGTS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcservers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -497,7 +593,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistory" value="" />
@@ -505,8 +601,37 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="opengts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="44" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="49" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="51" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="487" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="44" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="49" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="51" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="487" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.opengts.war.track.page" />
+      <recent name="org.opengts.war.report.ifta" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/org/opengts/servers/xirgo" />
       <recent name="$PROJECT_DIR$/src/org/opengts/servers" />
@@ -525,11 +650,11 @@
   <component name="RunManager" selected="Application.Track">
     <configuration default="false" name="Track" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.opengts.war.track.Track" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -540,56 +665,13 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/build.xml" target="track" />
+      </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <module name="OpenGTS" />
@@ -600,19 +682,20 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -626,33 +709,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -689,34 +745,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="false" name="OpenGTS" type="Remote" factoryName="Remote" singleton="true">
       <module name="OpenGTS" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="true" />
+      <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <option name="HOST" value="opengts.domacin" />
+      <option name="PORT" value="8000" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="5005" />
+        <option name="DEBUG_PORT" value="8000" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="false" />
       </RunnerSettings>
@@ -768,35 +805,55 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="105" y="127" width="1162" height="542" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32419354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32258064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4012945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32258064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25679758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26435044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="105" y="127" width="1162" height="542" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32419354" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -815,307 +872,465 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="OpenGTS" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="OpenGTS" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="help" isVisible="true" />
+        <filter targetName="environment" isVisible="true" />
+        <filter targetName="all" isVisible="true" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="compile.base" isVisible="true" />
+        <filter targetName="compile.servers" isVisible="true" />
+        <filter targetName="compile.servlets" isVisible="true" />
+        <filter targetName="tomcat.env" isVisible="true" />
+        <filter targetName="tomcat.home" isVisible="true" />
+        <filter targetName="tomcat.base" isVisible="true" />
+        <filter targetName="tomcat.shexe" isVisible="false" />
+        <filter targetName="tomcat.sh_exe" isVisible="true" />
+        <filter targetName="gts_vars.env" isVisible="true" />
+        <filter targetName="checkInstall" isVisible="true" />
+        <filter targetName="prepare" isVisible="true" />
+        <filter targetName="gtsdmtp.jar" isVisible="false" />
+        <filter targetName="gtsdmtp" isVisible="true" />
+        <filter targetName="CompileTime.java" isVisible="true" />
+        <filter targetName="gtsdb.jar" isVisible="false" />
+        <filter targetName="gtsdb" isVisible="true" />
+        <filter targetName="gtsutils.optional" isVisible="true" />
+        <filter targetName="gtsutils.exceltools" isVisible="true" />
+        <filter targetName="gtsutils.sigHandler" isVisible="true" />
+        <filter targetName="gtsutils" isVisible="false" />
+        <filter targetName="gtsutils.compile" isVisible="true" />
+        <filter targetName="gtsutils.jar" isVisible="true" />
+        <filter targetName="wartools.jar" isVisible="false" />
+        <filter targetName="wartools" isVisible="true" />
+        <filter targetName="warmaps.jar" isVisible="false" />
+        <filter targetName="warmaps" isVisible="true" />
+        <filter targetName="track.all" isVisible="false" />
+        <filter targetName="track" isVisible="true" />
+        <filter targetName="track.prepare" isVisible="true" />
+        <filter targetName="track.compile" isVisible="true" />
+        <filter targetName="track.war" isVisible="true" />
+        <filter targetName="track.deploy" isVisible="true" />
+        <filter targetName="service.all" isVisible="false" />
+        <filter targetName="service" isVisible="true" />
+        <filter targetName="service.prepare" isVisible="true" />
+        <filter targetName="service.compile" isVisible="true" />
+        <filter targetName="service.war" isVisible="true" />
+        <filter targetName="service.deploy" isVisible="true" />
+        <filter targetName="events.all" isVisible="false" />
+        <filter targetName="events" isVisible="true" />
+        <filter targetName="events.compile" isVisible="true" />
+        <filter targetName="events.war" isVisible="true" />
+        <filter targetName="events.deploy" isVisible="true" />
+        <filter targetName="mologogo.all" isVisible="false" />
+        <filter targetName="mologogo" isVisible="true" />
+        <filter targetName="mologogo.compile" isVisible="true" />
+        <filter targetName="mologogo.war" isVisible="true" />
+        <filter targetName="mologogo.deploy" isVisible="true" />
+        <filter targetName="gprmc.all" isVisible="false" />
+        <filter targetName="gprmc" isVisible="true" />
+        <filter targetName="gprmc.compile" isVisible="true" />
+        <filter targetName="gprmc.war" isVisible="true" />
+        <filter targetName="gprmc.deploy" isVisible="true" />
+        <filter targetName="gc101.all" isVisible="false" />
+        <filter targetName="gc101" isVisible="true" />
+        <filter targetName="gc101.compile" isVisible="true" />
+        <filter targetName="gc101.war" isVisible="true" />
+        <filter targetName="gc101.deploy" isVisible="true" />
+        <filter targetName="gpsmapper.all" isVisible="false" />
+        <filter targetName="gpsmapper" isVisible="true" />
+        <filter targetName="gpsmapper.compile" isVisible="true" />
+        <filter targetName="gpsmapper.war" isVisible="true" />
+        <filter targetName="gpsmapper.deploy" isVisible="true" />
+        <filter targetName="template" isVisible="true" />
+        <filter targetName="xirgo" isVisible="true" />
+        <filter targetName="template_old" isVisible="true" />
+        <filter targetName="icare" isVisible="true" />
+        <filter targetName="aspicore" isVisible="true" />
+        <filter targetName="tk10x" isVisible="true" />
+        <filter targetName="sipgear" isVisible="true" />
+        <filter targetName="taip" isVisible="true" />
+        <filter targetName="lantrix" isVisible="true" />
+        <filter targetName="astra" isVisible="true" />
+        <filter targetName="tools" isVisible="true" />
+        <filter targetName="systemProps" isVisible="true" />
+        <filter targetName="javadoc" isVisible="false" />
+        <filter targetName="javadocs" isVisible="true" />
+        <filter targetName="locale" isVisible="true" />
+        <filter targetName="locale.old" isVisible="true" />
+        <filter targetName="epoch" isVisible="true" />
+        <filter targetName="optjars" isVisible="true" />
+        <filter targetName="custom" isVisible="false" />
+        <filter targetName="custom.jar" isVisible="true" />
+        <filter targetName="customtrack.jar" isVisible="true" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/TrackClientPacketHandler.java">
+    <entry file="file://$PROJECT_DIR$/config.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="13" selection-start="3245" selection-end="3245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/template/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/template/TrackClientPacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="16" selection-start="5620" selection-end="5620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/GPSEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="49" selection-start="3300" selection-end="3300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/gtsdmtp/ParseFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.028192371" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/gtsdmtp/ParseFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.028192371" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/template/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/GPSEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="10" selection-start="3517" selection-end="3517" vertical-scroll-proportion="-0.23050848" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/Version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="83" selection-start="3683" selection-end="3705" vertical-scroll-proportion="-2.0822623" vertical-offset="1035" max-vertical-offset="2430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/template/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.23393317" vertical-offset="91" max-vertical-offset="480" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/template/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="13" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.33161953" vertical-offset="21" max-vertical-offset="3390" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="37" selection-start="1761" selection-end="1761" vertical-scroll-proportion="-5.62234" vertical-offset="2354" max-vertical-offset="2820" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/tk10x/TrackClientPacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="24" selection-start="3488" selection-end="3494" vertical-scroll-proportion="0.3470437" vertical-offset="60" max-vertical-offset="21240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/util/DateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3182" column="27" selection-start="120372" selection-end="120372" vertical-scroll-proportion="0.0" vertical-offset="45902" max-vertical-offset="54450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/util/AbstractClientPacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="11" selection-start="4039" selection-end="4039" vertical-scroll-proportion="0.0" vertical-offset="1018" max-vertical-offset="8145" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dcservers.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="263" selection-end="271" vertical-scroll-proportion="0.3181818" vertical-offset="0" max-vertical-offset="990" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="64" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.12806539" vertical-offset="688" max-vertical-offset="1800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="923" selection-end="923" vertical-scroll-proportion="0.33242506" vertical-offset="163" max-vertical-offset="3810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/aspicore/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="61" selection-start="6598" selection-end="6598" vertical-scroll-proportion="0.25885558" vertical-offset="1645" max-vertical-offset="3345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/template/TrackClientPacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="37" selection-start="6435" selection-end="6435" vertical-scroll-proportion="-6.7777777" vertical-offset="267" max-vertical-offset="19650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/template/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="74" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="1335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DCServerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="304" column="85" selection-start="13194" selection-end="13194" vertical-scroll-proportion="0.6384181" vertical-offset="3329" max-vertical-offset="50355" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DCServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="58920" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="73" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.6321526" vertical-offset="113" max-vertical-offset="480" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dcservers.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1598" selection-end="1680" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2205">
-          <folding>
-            <element signature="tag#DCServer#1;tag#DCServerConfig#0" expanded="false" />
-            <element signature="tag#DCServer#2;tag#DCServerConfig#0" expanded="false" />
-            <element signature="tag#DCServer#3;tag#DCServerConfig#0" expanded="false" />
-            <element signature="tag#DCServer#4;tag#DCServerConfig#0" expanded="false" />
-            <element signature="tag#DCServer#5;tag#DCServerConfig#0" expanded="false" />
-            <element signature="tag#DCServer#6;tag#DCServerConfig#0" expanded="false" />
-            <element signature="tag#DCServer#7;tag#DCServerConfig#0" expanded="false" />
-            <element signature="tag#DCServer#8;tag#DCServerConfig#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dcservers/dcserver_xirgo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="346" column="72" selection-start="12877" selection-end="12877" vertical-scroll-proportion="0.0" vertical-offset="5190" max-vertical-offset="6075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/field/FieldData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="1581" selection-end="1581" vertical-scroll-proportion="-2.7384195" vertical-offset="1080" max-vertical-offset="9555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/event/EventDetailReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.20435968" vertical-offset="0" max-vertical-offset="1815" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="527" column="16" selection-start="18457" selection-end="18457" vertical-scroll-proportion="0.0" vertical-offset="6707" max-vertical-offset="12900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/event/EventDataLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="15" selection-start="4026" selection-end="4026" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="55680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/CompileTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="55" selection-start="347" selection-end="351" vertical-scroll-proportion="0.28610355" vertical-offset="0" max-vertical-offset="367">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/HtmlWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="31" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0" vertical-offset="2340" max-vertical-offset="5790">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="205" selection-end="212" vertical-scroll-proportion="0.24523161" vertical-offset="0" max-vertical-offset="367" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1325" column="77" selection-start="60561" selection-end="60561" vertical-scroll-proportion="0.0" vertical-offset="19521" max-vertical-offset="21015">
-          <folding />
-        </state>
+        <state line="462" column="19" selection-start="15821" selection-end="15821" vertical-scroll-proportion="0.0" vertical-offset="6812" max-vertical-offset="12885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2291" column="28" selection-start="91367" selection-end="91367" vertical-scroll-proportion="0.5776567" vertical-offset="34153" max-vertical-offset="34815">
+        <state line="722" column="10" selection-start="30351" selection-end="30351" vertical-scroll-proportion="-2.9590793" vertical-offset="11987" max-vertical-offset="34815">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportData.java">
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/util/SendMailArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1111" column="98" selection-start="36199" selection-end="36199" vertical-scroll-proportion="0.0" vertical-offset="14325" max-vertical-offset="22935">
+        <state line="38" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="7530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/servers/gtsdmtp/ParseFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="23" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2235" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/dbtools/DBAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="13" selection-start="5581" selection-end="5581" vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="20070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/dbtools/DBAlternateIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="2295" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/dbtools/DBAlreadyExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="8" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/dbtools/DBRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="22" selection-start="3438" selection-end="3438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="44775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/dbtools/DBRecordKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="17040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/util/CssStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="13" selection-start="1329" selection-end="1329" vertical-scroll-proportion="-2.105691" vertical-offset="912" max-vertical-offset="5550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/util/DatagramMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="58" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="6150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/StartupInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="570" column="91" selection-start="25857" selection-end="25857" vertical-scroll-proportion="0.19614148" vertical-offset="7844" max-vertical-offset="9975">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.conf">
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/dbtools/DBException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="462" column="19" selection-start="15821" selection-end="15821" vertical-scroll-proportion="0.0" vertical-offset="6812" max-vertical-offset="12885">
+        <state line="41" column="13" selection-start="1511" selection-end="1511" vertical-scroll-proportion="-1.1923077" vertical-offset="615" max-vertical-offset="2415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/event/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/event/EventSummaryReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="13" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.12647554" vertical-offset="0" max-vertical-offset="2595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportDeviceList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="13" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.12647554" vertical-offset="0" max-vertical-offset="7410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/event/EventDataLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="538" column="48" selection-start="28469" selection-end="28469" vertical-scroll-proportion="0.0" vertical-offset="9166" max-vertical-offset="55680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuDeviceDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="53" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.33333334" vertical-offset="421" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/TopMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="72" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.0" vertical-offset="2961" max-vertical-offset="3315">
+        <state line="151" column="90" selection-start="6726" selection-end="6726" vertical-scroll-proportion="0.18487395" vertical-offset="1209" max-vertical-offset="17925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/WebPageAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1399" column="25" selection-start="47774" selection-end="47774" vertical-scroll-proportion="0.0" vertical-offset="19066" max-vertical-offset="20820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="501" column="13" selection-start="23089" selection-end="23089" vertical-scroll-proportion="0.0" vertical-offset="6480" max-vertical-offset="16275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="72" selection-start="2940" selection-end="2940" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="14760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/RequestProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="25" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="36240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/track/WEB-INF/private.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1285" column="52" selection-start="93328" selection-end="93328" vertical-scroll-proportion="0.0" vertical-offset="19157" max-vertical-offset="21300">
+        <state line="1274" column="83" selection-start="92637" selection-end="92637" vertical-scroll-proportion="0.0" vertical-offset="18991" max-vertical-offset="21345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/track/js/ExpandMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="86" selection-start="3834" selection-end="3846" vertical-scroll-proportion="0.0" vertical-offset="1107" max-vertical-offset="1665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/HTMLOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="11" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-0.75344825" vertical-offset="767" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/IftaDetailReport.java">
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/AclEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="39" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="1140">
+        <state line="60" column="38" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="5955">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/IftaDetailLayout.java">
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/AccountLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="675">
+        <state line="362" column="85" selection-start="19558" selection-end="19558" vertical-scroll-proportion="-1.2268908" vertical-offset="5058" max-vertical-offset="5415">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/BasicPrivateLabel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="736" column="42" selection-start="32915" selection-end="33099" vertical-scroll-proportion="0.41333333" vertical-offset="9895" max-vertical-offset="32295">
+        <state line="152" column="32" selection-start="7968" selection-end="7968" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="34785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/PrivateLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="13" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="12495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="32" selection-start="4897" selection-end="4897" vertical-scroll-proportion="0.0" vertical-offset="1070" max-vertical-offset="2370">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#9631#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/Track.java">
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="900" column="67" selection-start="41416" selection-end="41416" vertical-scroll-proportion="0.0" vertical-offset="12015" max-vertical-offset="26550">
+        <state line="9" column="25" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/event/EventDetailReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="13" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportConstraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="13" selection-start="1614" selection-end="1614" vertical-scroll-proportion="-0.6469003" vertical-offset="315" max-vertical-offset="7155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/BasicPrivateLabelLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2822" column="43" selection-start="124605" selection-end="124605" vertical-scroll-proportion="0.0" vertical-offset="40891" max-vertical-offset="41595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="22" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/Map.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2425876" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/util/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1819" column="24" selection-start="67005" selection-end="67005" vertical-scroll-proportion="0.0" vertical-offset="26082" max-vertical-offset="28515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/IconMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="23" selection-start="7013" selection-end="7013" vertical-scroll-proportion="0.0" vertical-offset="1681" max-vertical-offset="4425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/TopMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="42" selection-start="9782" selection-end="9782" vertical-scroll-proportion="0.0" vertical-offset="2657" max-vertical-offset="3330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/ExpandMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="26" selection-start="4602" selection-end="4602" vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="4095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/MenuGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="31" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0" vertical-offset="1239" max-vertical-offset="2085">
+          <folding>
+            <element signature="e#0#5587#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2426#2427#0" expanded="false" />
+            <element signature="e#2465#2466#0" expanded="false" />
+            <element signature="e#2783#2784#0" expanded="false" />
+            <element signature="e#2822#2823#0" expanded="false" />
+            <element signature="e#3121#3122#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3234#3235#0" expanded="false" />
+            <element signature="e#3266#3267#0" expanded="false" />
+            <element signature="e#3449#3450#0" expanded="false" />
+            <element signature="e#3483#3484#0" expanded="false" />
+            <element signature="e#3844#3845#0" expanded="false" />
+            <element signature="e#3883#3884#0" expanded="false" />
+            <element signature="e#4935#4944#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reports.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="810" column="67" selection-start="47417" selection-end="47417" vertical-scroll-proportion="0.0" vertical-offset="11955" max-vertical-offset="62010">
+        <state line="857" column="28" selection-start="50291" selection-end="50291" vertical-scroll-proportion="0.0" vertical-offset="12718" max-vertical-offset="61995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/tables/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2088" column="61" selection-start="91964" selection-end="91986" vertical-scroll-proportion="0.0" vertical-offset="29191" max-vertical-offset="71130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="76" selection-start="6779" selection-end="6779" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="23190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuIFTA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="33" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="1200">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/private.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1369" column="29" selection-start="97462" selection-end="97462" vertical-scroll-proportion="1.387931" vertical-offset="20052" max-vertical-offset="21345">
+        <state line="1286" column="12" selection-start="93340" selection-end="93403" vertical-scroll-proportion="0.0" vertical-offset="19018" max-vertical-offset="21300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="728" column="12" selection-start="32677" selection-end="32677" vertical-scroll-proportion="0.0" vertical-offset="10696" max-vertical-offset="33285">
+          <folding>
+            <element signature="e#0#105947#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#25225#25233#0" expanded="true" />
+            <element signature="e#27739#27747#0" expanded="true" />
+            <element signature="e#36652#36671#0" expanded="true" />
+            <element signature="e#39091#39105#0" expanded="true" />
+            <element signature="e#45319#45333#0" expanded="true" />
+            <element signature="e#58348#58369#0" expanded="true" />
+            <element signature="e#62481#62502#0" expanded="true" />
+            <element signature="e#64761#64782#0" expanded="true" />
+            <element signature="e#70226#70234#0" expanded="true" />
+            <element signature="e#99925#99940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="67" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="1468" max-vertical-offset="27405">
+          <folding>
+            <element signature="e#0#86774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuBrongusIFTA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="56" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.44474393" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
@@ -1126,6 +1341,17 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1197,6 +1423,18 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>dmtpserv</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

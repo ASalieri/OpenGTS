@@ -32,19 +32,18 @@
 // ----------------------------------------------------------------------------
 package org.opengts.war.track.page;
 
-import java.util.*;
-import java.io.*;
-
-import javax.servlet.*;
-import javax.servlet.http.*;
-
-import org.opengts.util.*;
-import org.opengts.dbtools.*;
-import org.opengts.db.*;
-import org.opengts.db.tables.*;
-
+import org.opengts.db.tables.Account;
+import org.opengts.util.EnumTools;
+import org.opengts.util.I18N;
+import org.opengts.util.StringTools;
 import org.opengts.war.tools.*;
-import org.opengts.war.track.*;
+import org.opengts.war.track.Constants;
+import org.opengts.war.track.ExpandMenu;
+import org.opengts.war.track.IconMenu;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Locale;
 
 public class TopMenu
     extends WebPageAdaptor
@@ -227,8 +226,9 @@ public class TopMenu
 
                 /* display menu */
                 boolean showIcon = menuType.isIcon();
+//                Print.logError("Menu type: %d", menuType);
                 switch (menuType) {
-                    case FIXED: 
+                    case FIXED:
                     case FIXED_ICON: {
                         boolean menuHelp = privLabel.getBooleanProperty(PrivateLabel.PROP_TopMenu_showMenuHelp,true);
                         ExpandMenu.writeMenu(out, reqState, "topMenuFixed", false, showIcon, descriptionType, menuHelp);

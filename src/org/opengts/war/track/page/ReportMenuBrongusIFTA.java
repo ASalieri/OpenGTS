@@ -22,14 +22,10 @@
 // ----------------------------------------------------------------------------
 package org.opengts.war.track.page;
 
-import org.opengts.util.*;
-import org.opengts.db.tables.*;
-
-import org.opengts.war.tools.*;
-import org.opengts.war.report.*;
+import org.opengts.war.tools.RequestProperties;
 
 public class ReportMenuBrongusIFTA
-    extends ReportMenu
+    extends ReportMenuIFTA
 {
 
     // ------------------------------------------------------------------------
@@ -43,57 +39,14 @@ public class ReportMenuBrongusIFTA
 
     public ReportMenuBrongusIFTA()
     {
-        this.setBaseURI(RequestProperties.TRACK_BASE_URI());
-        this.setPageName(PAGE_MENU_RPT_IFTA);
-        this.setPageNavigation(new String[] { PAGE_LOGIN, PAGE_MENU_TOP });
-        this.setLoginRequired(true);
-        this.setReportType(ReportFactory.REPORT_TYPE_IFTA_DETAIL);
+        super();
     }
 
     // ------------------------------------------------------------------------
 
     public boolean isOkToDisplay(RequestProperties reqState)
     {
-        return Account.SupportsBorderCrossing();
+        return true;
     }
-
-    // ------------------------------------------------------------------------
-
-    public String getMenuName(RequestProperties reqState)
-    {
-        return MenuBar.MENU_REPORTS_IFTA;
-    }
-
-    public String getMenuDescription(RequestProperties reqState, String parentMenuName)
-    {
-        PrivateLabel privLabel = reqState.getPrivateLabel();
-        I18N i18n = privLabel.getI18N(ReportMenuBrongusIFTA.class);
-        return super._getMenuDescription(reqState,i18n.getString("ReportMenuIFTA.menuDesc","I.F.T.A. Reports"));
-    }
-   
-    public String getMenuHelp(RequestProperties reqState, String parentMenuName)
-    {
-        PrivateLabel privLabel = reqState.getPrivateLabel();
-        I18N i18n = privLabel.getI18N(ReportMenuBrongusIFTA.class);
-        return super._getMenuHelp(reqState,i18n.getString("ReportMenuIFTA.menuHelp","Display various I.F.T.A. reports"));
-    }
-
-    // ------------------------------------------------------------------------
-
-    public String getNavigationDescription(RequestProperties reqState)
-    {
-        PrivateLabel privLabel = reqState.getPrivateLabel();
-        I18N i18n = privLabel.getI18N(ReportMenuBrongusIFTA.class);
-        return super._getNavigationDescription(reqState,i18n.getString("ReportMenuIFTA.navDesc","I.F.T.A."));
-    }
-
-    public String getNavigationTab(RequestProperties reqState)
-    {
-        PrivateLabel privLabel = reqState.getPrivateLabel();
-        I18N i18n = privLabel.getI18N(ReportMenuBrongusIFTA.class);
-        return super._getNavigationTab(reqState,i18n.getString("ReportMenuIFTA.navTab","I.F.T.A."));
-    }
-
-    // ------------------------------------------------------------------------
 
 }

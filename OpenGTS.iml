@@ -7,6 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="tomcat7" level="project" />
+    <orderEntry type="library" name="dmtpserv" level="project" />
+    <orderEntry type="library" name="java-jre" level="project" />
   </component>
 </module>
 

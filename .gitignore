@@ -9,3 +9,8 @@
 #private.xml
 logs/*
 build/*
+
+.classpath
+.metadata/
+.project
+RemoteSystemsTempFiles/

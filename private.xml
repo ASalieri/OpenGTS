@@ -1284,7 +1284,7 @@ Notes:
             <Page rtKey="ReportMenuDriverPerformance" class="org.opengts.war.track.page.ReportMenuDriverPerformance">
                 <AclName>acl.reportGroup.performance</AclName>
                 </Page>
-            <Page class="org.opengts.war.track.page.ReportMenuIFTA">
+            <Page class="org.opengts.war.track.page.ReportMenuBrongusIFTA">
                 <AclName>acl.reportGroup.ifta</AclName>
                 </Page>
         </MenuGroup>

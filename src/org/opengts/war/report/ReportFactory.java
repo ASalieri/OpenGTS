@@ -60,22 +60,28 @@
 // ----------------------------------------------------------------------------
 package org.opengts.war.report;
 
-import java.util.*;
-import java.io.*;
-
-import javax.xml.parsers.*;
-import org.w3c.dom.*;
-import org.xml.sax.*;
-
-import javax.servlet.*;
-import javax.servlet.http.*;
-
-import org.opengts.util.*;
-import org.opengts.dbtools.*;
-import org.opengts.db.*;
+import org.opengts.db.DBConfig;
+import org.opengts.db.ReportURL;
+import org.opengts.db.RuleFactory;
 import org.opengts.db.tables.*;
+import org.opengts.dbtools.DBException;
+import org.opengts.util.*;
+import org.opengts.war.tools.OutputProvider;
+import org.opengts.war.tools.RequestProperties;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
-import org.opengts.war.tools.*;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.*;
 
 public class ReportFactory
 {
@@ -1087,6 +1093,7 @@ public class ReportFactory
                             }
                         }
                     } catch (Throwable th) {
+                        // Print.logError("["+xmlFile+"] Report '" + rptName + "' likely does not responds to method \"GetReportLayout\"");
                         // Report likely does not responds to method "GetReportLayout"
                         // ignore (layoutActual will be null)
                     }
