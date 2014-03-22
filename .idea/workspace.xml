@@ -6,8 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java" line="792" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="716b720b-bae0-4c58-8596-130198ee6c21" name="Default" comment=" &#10; Added US states shapefile to project build structure">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Xirgo_events.list" />
+    <list default="true" id="716b720b-bae0-4c58-8596-130198ee6c21" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7e69c752-7200-43d8-8bce-c551a4fa62b0" name="Rejected commit: Default" comment=" Made some changes to TrackClientPacketHandler.java to fit Xrigo XT-2000 device need" />
@@ -688,7 +687,11 @@
       <created>1395499265213</created>
       <updated>1395499265213</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Minor project changes">
+      <created>1395499283185</created>
+      <updated>1395499283185</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -782,11 +785,11 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="&#10; Added Tomas Diewald's library for handling shape files&#10; See https://github.com/diwi/diewald_shapeFileReader&#10;" />
-    <MESSAGE value="Minor project changes" />
     <MESSAGE value=" Made some changes to TrackClientPacketHandler.java to fit Xrigo XT-2000 device need" />
     <MESSAGE value=" Added US shapefile set of files (states_21basic.zip)&#10; Added shapefile whitepaper (shapefile.pdf)" />
     <MESSAGE value=" &#10; Added US states shapefile to project build structure" />
-    <option name="LAST_COMMIT_MESSAGE" value=" &#10; Added US states shapefile to project build structure" />
+    <MESSAGE value="Minor project changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor project changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
