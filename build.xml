@@ -752,6 +752,12 @@ File     : build.xml
         </fileset>
     </copy>
 
+    <copy todir="${build.track}" verbose="true">
+        <fileset dir="${basedir}">
+            <include name="data/**"/>
+        </fileset>
+    </copy>
+
     <!-- .xml files -->
     <copy todir="${build.track}/WEB-INF" verbose="false">
         <fileset dir="${basedir}">
