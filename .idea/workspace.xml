@@ -6,7 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java" line="792" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="716b720b-bae0-4c58-8596-130198ee6c21" name="Default" comment="">
+    <list default="true" id="716b720b-bae0-4c58-8596-130198ee6c21" name="Default" comment="Minor project changes&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenGTS.iml" afterPath="$PROJECT_DIR$/OpenGTS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/lazar.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/lazar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7e69c752-7200-43d8-8bce-c551a4fa62b0" name="Rejected commit: Default" comment=" Made some changes to TrackClientPacketHandler.java to fit Xrigo XT-2000 device need" />
@@ -99,6 +101,36 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/org/brongus/shapefile/ShapeFileTest.java" line="56" class="org.brongus.shapefile.ShapeFileTest" package="org.brongus.shapefile">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/org/brongus/shapefile/bcross/StateTest.java" line="29" class="org.brongus.shapefile.bcross.StateTest" package="org.brongus.shapefile.bcross">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -109,21 +141,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DetailReport.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailReport.java">
+      <file leaf-file-name="ShapeFile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/ShapeFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="75" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.7846154" vertical-offset="534" max-vertical-offset="1125">
+            <state line="223" column="0" selection-start="6831" selection-end="6831" vertical-scroll-proportion="0.0" vertical-offset="3123" max-vertical-offset="3825">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/bcross/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="38" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="849" max-vertical-offset="1170">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SHP_File.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="50" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetailLayout.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailLayout.java">
+      <file leaf-file-name="ArrayList.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="675">
+            <state line="50" column="19" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="2535">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SHX_File.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shx/SHX_File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="24" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="1575">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBF_File.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="24" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="3255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/org/brongus/shapefile/bcross/StateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="16" selection-start="498" selection-end="498" vertical-scroll-proportion="1.0163044" vertical-offset="46" max-vertical-offset="615">
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrameworkMethod.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/bcross/StateInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="54" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="660">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,8 +250,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Lazar Ivanović &lt;sreca_rados..." />
         <option value="Lazar Ivanović &lt;sreca_radost@yahoo.com&gt;" />
+        <option value="Lazar Ivanović &lt;sreca_rados..." />
       </list>
     </option>
     <option name="SYNC_SETTING" value="DONT" />
@@ -178,19 +289,26 @@
         <option value="$PROJECT_DIR$/src/org/opengts/war/report/ReportFactory.java" />
         <option value="$PROJECT_DIR$/src/org/opengts/war/track/Track.java" />
         <option value="$PROJECT_DIR$/src/org/opengts/db/StatusCodes.java" />
-        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_File.java" />
         <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_Header.java" />
         <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpMultiPoint.java" />
         <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpPoint.java" />
         <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpPolygon.java" />
         <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpPolyLine.java" />
-        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/ShapeFile.java" />
         <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_Field.java" />
-        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shx/SHX_File.java" />
-        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_File.java" />
         <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpShape.java" />
         <option value="$PROJECT_DIR$/src/org/opengts/servers/xirgo/TrackClientPacketHandler.java" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/test/org/brongus/shapefile/ShapeFileReader_TEST.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/Pip.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/bcross/Coordinate.java" />
+        <option value="$PROJECT_DIR$/test/org/brongus/shapefile/ShapeFileTest.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/ShapeFile.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/bcross/State.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shx/SHX_File.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_File.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/bcross/StateInfo.java" />
+        <option value="$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_File.java" />
+        <option value="$PROJECT_DIR$/test/org/brongus/shapefile/bcross/StateTest.java" />
       </list>
     </option>
   </component>
@@ -309,15 +427,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
+              <option name="myItemId" value="shapefile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,18 +448,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -357,75 +459,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
+              <option name="myItemId" value="shapefiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opengts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ifta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenGTS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
+              <option name="myItemId" value="usa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,7 +481,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
@@ -480,8 +522,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="487" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="dynamic.classpath" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.brongus.shapefile.bcross" />
+      <recent name="org.brongus.shapefile" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.opengts.war.track.page" />
       <recent name="org.opengts.war.report.ifta" />
@@ -491,19 +544,20 @@
       <recent name="$PROJECT_DIR$/src/org/opengts/servers" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.brongus.shapefile.bcross" />
       <recent name="org.opengts.war.report.ifta" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dcservers" />
-      <recent name="$PROJECT_DIR$/src/org/opengts/servers/xirgo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.brongus.shapefile.files" />
       <recent name="org.brongus.shapefile" />
       <recent name="org.opengts.servers.xirgo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dcservers" />
+      <recent name="$PROJECT_DIR$/src/org/opengts/servers/xirgo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Track">
+  <component name="RunManager" selected="JUnit.StateTest (1)">
     <configuration default="false" name="Track" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.opengts.war.track.Track" />
       <option name="VM_PARAMETERS" value="" />
@@ -528,6 +582,114 @@
         <option name="Make" enabled="false" />
         <option name="AntTarget" enabled="true" antfile="file://$PROJECT_DIR$/build.xml" target="track" />
       </method>
+    </configuration>
+    <configuration default="false" name="ShapeFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OpenGTS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.brongus.shapefile" />
+      <option name="MAIN_CLASS_NAME" value="org.brongus.shapefile.ShapeFileTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShapeFileTest.TestWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OpenGTS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.brongus.shapefile" />
+      <option name="MAIN_CLASS_NAME" value="org.brongus.shapefile.ShapeFileTest" />
+      <option name="METHOD_NAME" value="TestWorks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OpenGTS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.brongus.shapefile.bcross" />
+      <option name="MAIN_CLASS_NAME" value="org.brongus.shapefile.bcross.StateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StateTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OpenGTS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.brongus.shapefile.bcross" />
+      <option name="MAIN_CLASS_NAME" value="org.brongus.shapefile.bcross.StateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <module name="OpenGTS" />
@@ -616,13 +778,21 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Remote.OpenGTS" />
       <item index="1" class="java.lang.String" itemvalue="Application.Track" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShapeFileTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShapeFileTest.TestWorks" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StateTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.StateTest (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Track" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StateTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StateTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShapeFileTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShapeFileTest.TestWorks" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Track" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -691,10 +861,18 @@
       <created>1395499283185</created>
       <updated>1395499283185</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Minor project changes&#10;">
+      <created>1395499296282</created>
+      <updated>1395499296282</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&#10; Intermediate version of functionality &quot;seek for state by gps coordinates&quot;">
+      <created>1395519345217</created>
+      <updated>1395519345217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -718,23 +896,24 @@
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32524273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32419354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="105" y="127" width="1162" height="542" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32524273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32200646" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5695793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4012945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32200646" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34592146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="105" y="127" width="1162" height="542" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34592146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967638" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -742,34 +921,33 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="105" y="127" width="1162" height="542" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32524273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32258064" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741934" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33534744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34592146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32419354" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32362458" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32258064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4012945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4012945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32419354" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32200646" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967638" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -789,7 +967,9 @@
     <MESSAGE value=" Added US shapefile set of files (states_21basic.zip)&#10; Added shapefile whitepaper (shapefile.pdf)" />
     <MESSAGE value=" &#10; Added US states shapefile to project build structure" />
     <MESSAGE value="Minor project changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor project changes" />
+    <MESSAGE value="Minor project changes&#10;" />
+    <MESSAGE value="&#10; Intermediate version of functionality &quot;seek for state by gps coordinates&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10; Intermediate version of functionality &quot;seek for state by gps coordinates&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -905,73 +1085,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/HTMLOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="11" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-0.75344825" vertical-offset="767" max-vertical-offset="1425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/AclEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="38" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="5955" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/AccountLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="362" column="85" selection-start="19558" selection-end="19558" vertical-scroll-proportion="-1.2268908" vertical-offset="5058" max-vertical-offset="5415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/BasicPrivateLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="32" selection-start="7968" selection-end="7968" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="34785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/tools/PrivateLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="13" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="12495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="32" selection-start="4897" selection-end="4897" vertical-scroll-proportion="0.0" vertical-offset="1070" max-vertical-offset="2370" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/event/EventDetailReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportConstraints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1614" selection-end="1614" vertical-scroll-proportion="-0.6469003" vertical-offset="315" max-vertical-offset="7155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/BasicPrivateLabelLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2822" column="43" selection-start="124605" selection-end="124605" vertical-scroll-proportion="0.0" vertical-offset="40891" max-vertical-offset="41595" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/Map.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2425876" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/util/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1819" column="24" selection-start="67005" selection-end="67005" vertical-scroll-proportion="0.0" vertical-offset="26082" max-vertical-offset="28515" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/IconMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="23" selection-start="7013" selection-end="7013" vertical-scroll-proportion="0.0" vertical-offset="1681" max-vertical-offset="4425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/TopMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="42" selection-start="9782" selection-end="9782" vertical-scroll-proportion="0.0" vertical-offset="2657" max-vertical-offset="3330" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/ExpandMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="122" column="26" selection-start="4602" selection-end="4602" vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="4095" />
@@ -998,7 +1111,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/db/DBConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="76" selection-start="6779" selection-end="6779" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="23190" />
+        <state line="127" column="76" selection-start="6779" selection-end="6779" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="23190">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuIFTA.java">
@@ -1017,7 +1132,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/war/track/page/ReportMenuBrongusIFTA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
+        <state line="25" column="27" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ReportData.java">
@@ -1072,7 +1189,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/db/tables/Geozone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1559" column="38" selection-start="56508" selection-end="56508" vertical-scroll-proportion="0.0" vertical-offset="20446" max-vertical-offset="53670" />
+        <state line="1559" column="38" selection-start="56508" selection-end="56508" vertical-scroll-proportion="0.0" vertical-offset="20446" max-vertical-offset="53670">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/util/Nmea0183.java">
@@ -1084,7 +1203,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/util/StringTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1808" column="25" selection-start="64424" selection-end="64424" vertical-scroll-proportion="0.0" vertical-offset="25340" max-vertical-offset="114570" />
+        <state line="1808" column="25" selection-start="64424" selection-end="64424" vertical-scroll-proportion="0.0" vertical-offset="25340" max-vertical-offset="114570">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/db/StatusCodes.java">
@@ -1094,84 +1215,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/tables/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5362" column="61" selection-start="223192" selection-end="223192" vertical-scroll-proportion="0.0" vertical-offset="76890" max-vertical-offset="184830" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpMultiPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="1038" selection-end="1061" vertical-scroll-proportion="-2.4107144" vertical-offset="0" max-vertical-offset="2625" />
+        <state line="32" column="14" selection-start="1038" selection-end="1061" vertical-scroll-proportion="-2.4107144" vertical-offset="0" max-vertical-offset="2625">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpPolygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2835" />
+        <state line="26" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2415">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpPolyLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_Header.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="13" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="2325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/ShapeFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="8" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.23273657" vertical-offset="974" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/ShapeFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="19" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="3855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shx/SHX_File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="15" selection-start="3138" selection-end="3138" vertical-scroll-proportion="0.0" vertical-offset="1036" max-vertical-offset="1665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="6" selection-start="7496" selection-end="7496" vertical-scroll-proportion="0.11764706" vertical-offset="3374" max-vertical-offset="3765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="14" selection-start="4851" selection-end="4851" vertical-scroll-proportion="0.0" vertical-offset="2161" max-vertical-offset="2775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="5" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="10" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="1740">
-          <folding />
+        <state line="26" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,15 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="675">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="37" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.33157894" vertical-offset="909" max-vertical-offset="34905">
@@ -1205,10 +1261,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="13" selection-start="4293" selection-end="4293" vertical-scroll-proportion="1.7266436" vertical-offset="757" max-vertical-offset="2145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/db/tables/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/io/FileInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="67" selection-start="750" selection-end="750" vertical-scroll-proportion="0.3800623" vertical-offset="133" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/ShapeFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="40" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.3800623" vertical-offset="463" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/awt/Point.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="66" selection-start="680" selection-end="680" vertical-scroll-proportion="0.69970846" vertical-offset="90" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/sun/swing/plaf/synth/DefaultSynthStyle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="24" selection-start="4110" selection-end="4110" vertical-scroll-proportion="0.33116883" vertical-offset="1053" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="75" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.7846154" vertical-offset="534" max-vertical-offset="1125">
+        <state line="57" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1125">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="22" selection-start="1275" selection-end="1284" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="25" selection-start="4474" selection-end="4481" vertical-scroll-proportion="-0.3271028" vertical-offset="2100" max-vertical-offset="2925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/shapeTypes/ShpPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="13" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.33116883" vertical-offset="243" max-vertical-offset="2820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/opengts/war/report/ifta/DetailLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="420" selection-end="420" vertical-scroll-proportion="0.36042404" vertical-offset="18" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.36042404" vertical-offset="543" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="612" selection-end="612" vertical-scroll-proportion="0.6360424" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/brongus/shapefile/ShapeFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="97" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="1440">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="19" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="2535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/ShapeFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="0" selection-start="6831" selection-end="6831" vertical-scroll-proportion="0.0" vertical-offset="3123" max-vertical-offset="3825">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/bcross/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="38" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="849" max-vertical-offset="1170">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/bcross/StateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="54" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="660">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/dbf/DBF_File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="24" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="3255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shp/SHP_File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="50" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/brongus/shapefile/files/shx/SHX_File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="24" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/org/brongus/shapefile/bcross/StateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="498" selection-end="498" vertical-scroll-proportion="1.0163044" vertical-offset="46" max-vertical-offset="615">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
