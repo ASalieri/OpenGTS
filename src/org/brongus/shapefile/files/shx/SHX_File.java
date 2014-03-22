@@ -47,11 +47,11 @@ import java.util.Locale;
 public class SHX_File extends ShapeFileReader{
   
   /** enable/disable general info-logging. */
-  public static boolean LOG_INFO = true;
+  public static boolean LOG_INFO = false;
   /** enable/disable logging of the header, while loading. */
-  public static boolean LOG_ONLOAD_HEADER = true;
+  public static boolean LOG_ONLOAD_HEADER = false;
   /** enable/disable logging of the content, while loading. */
-  public static boolean LOG_ONLOAD_CONTENT = true;
+  public static boolean LOG_ONLOAD_CONTENT = false;
   
   private SHP_Header header;
   private int[] SHX_shape_offsets;
