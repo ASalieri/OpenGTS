@@ -26,10 +26,58 @@ public class StateTest {
     }
 
     @Test
-    public void testGetStateInfoForPoint() throws Exception {
-        StateInfo stateInfo = state.getStateInfoForPoint(45.4812219, -104.5596687);
-        Assert.assertEquals(stateInfo.stateName, "Hawaii");
-        Assert.assertEquals(stateInfo.stateSubRegion, "Pacific");
-        Assert.assertEquals(stateInfo.stateAbbreviation, "HI");
+    public void TestPointsFarFromStateBorders() throws Exception {
+        StateInfo stateInfo;
+
+        stateInfo = state.getStateInfoForPoint(-88.9910706846, 40.4054969251);
+        Assert.assertEquals("Illinois", stateInfo.stateName);
+        Assert.assertEquals("East North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("IL", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-91.0562008603, 40.1146335201);
+        Assert.assertEquals("Illinois", stateInfo.stateName);
+        Assert.assertEquals("East North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("IL", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-95.3609792547, 37.7586399394);
+        Assert.assertEquals("Kansas", stateInfo.stateName);
+        Assert.assertEquals("West North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("KS", stateInfo.stateAbbreviation);
+    }
+
+    @Test
+    public void TestPointsNearStateBorder() throws Exception {
+        StateInfo stateInfo;
+
+        stateInfo = state.getStateInfoForPoint(-91.4052369464, 40.1000903499);
+        Assert.assertEquals("Illinois", stateInfo.stateName);
+        Assert.assertEquals("East North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("IL", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-87.7258148728, 42.0343319933);
+        Assert.assertEquals("Illinois", stateInfo.stateName);
+        Assert.assertEquals("East North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("IL", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-90.9543986686, 41.3071734807);
+        Assert.assertEquals("Illinois", stateInfo.stateName);
+        Assert.assertEquals("East North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("IL", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-89.1801318979, 37.0060308789);
+        Assert.assertEquals("Illinois", stateInfo.stateName);
+        Assert.assertEquals("East North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("IL", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-89.2701177638, 37.0660214562);
+        Assert.assertEquals("Missouri", stateInfo.stateName);
+        Assert.assertEquals("West North Central", stateInfo.stateSubRegion);
+        Assert.assertEquals("MO", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-155.490085919, 19.6262039082);
+        Assert.assertEquals("Hawaii", stateInfo.stateName);
+        Assert.assertEquals("Pacific", stateInfo.stateSubRegion);
+        Assert.assertEquals("HI", stateInfo.stateAbbreviation);
+
     }
 }
