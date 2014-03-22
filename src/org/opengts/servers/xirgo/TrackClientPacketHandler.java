@@ -100,10 +100,12 @@ import org.opengts.db.tables.Device;
 import org.opengts.servers.GPSEvent;
 import org.opengts.util.*;
 
-import java.io.*;
-import java.net.*;
-import java.sql.*;
-import java.util.*;
+import java.io.EOFException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.net.InetAddress;
+import java.util.TimeZone;
 
 /**
 *** <code>TrackClientPacketHandler</code> - This module contains the general
@@ -136,6 +138,9 @@ public class TrackClientPacketHandler
     // Format #11: (see "parseInsertRecord_Device_1")
     //   $<EventCode>,<MobileID>,<HHMMSS>,<GPSValid>,<NMEALat>,<N|S>,<NMEALon>,<E|W>,<SpeedKnots>,<Heading>,<DDMMYY>
     //
+    // Format #12 (see "parseXirgoDeviceRecord")
+    //   $$<UID>,<EV#>,<D>,<T>,<LT>,<LN>,<AL>,<SP>,<AC>,<DC>,<RP>,<HD>,<SV>,<HP>,<MI>,<MG>,<BV>,<CQ>,<GS>,<GT>,<FL>[,<SEQ>]##
+    //
     // These are only *examples* of an ASCII encoded data protocol.  Since this 'template'
     // cannot anticipate every possible ASCII/Binary protocol that may be encounted, this
     // module should only be used as an *example* of how a Device Communication Server might
@@ -143,7 +148,10 @@ public class TrackClientPacketHandler
     // Device may take a signigicant and substantial amount of programming work to accomplish, 
     // depending on the Device protocol.
     // ------------------------------------------------------------------------
-    public  static int          DATA_FORMAT_OPTION          = 1;
+    private static int          XIRGO_DATA_FORMAT           = 12;
+    public  static int          DATA_FORMAT_OPTION          = XIRGO_DATA_FORMAT;
+
+    private static int PACKET_FIELD_COUNT = 21;
 
     // ------------------------------------------------------------------------
 
@@ -166,7 +174,7 @@ public class TrackClientPacketHandler
     /* simulate geozone arrival/departure */
     // (enable to insert simulated Geozone arrival/departure EventData records)
     public  static       boolean SIMEVENT_GEOZONES          = false;
-    
+
     /* simulate digital input changes */
     public  static       long    SIMEVENT_DIGITAL_INPUTS    = 0x0000L; // 0xFFFFL;
 
@@ -186,6 +194,10 @@ public class TrackClientPacketHandler
     /* Knot/Kilometer conversions */
     public static final double  KILOMETERS_PER_KNOT     = 1.85200000;
     public static final double  KNOTS_PER_KILOMETER     = 1.0 / KILOMETERS_PER_KNOT;
+
+    /* Mile/Kilometer conversions */
+    public static final double  KILOMETERS_PER_MILE     = 1.609344;
+    public static final double  MILES_PER_KILOMETER     = 1.0 / KILOMETERS_PER_MILE;
 
     // ------------------------------------------------------------------------
 
@@ -565,6 +577,7 @@ public class TrackClientPacketHandler
                 case  3 : rtn = this.parseInsertRecord_ASCII_03(s); break;
                 case  9 : rtn = this.parseInsertRecord_RTProps (s); break;
                 case 11 : rtn = this.parseInsertRecord_Device_1(s); break;
+                case 12 : rtn = this.parseInsertRecord_Xirgo(s); break;
                 default: Print.logError("Unspecified data format"); break;
             }
             // Note:
@@ -601,6 +614,124 @@ public class TrackClientPacketHandler
         // the above "terminateSession" method should return true [the method "setTerminate()" is 
         // provided to facilitate session termination - see "setTerminate" above].
 
+    }
+
+    private byte[] parseInsertRecord_Xirgo(String s) {
+        // Format:
+        //   $$<UID>,<EV#>,<D>,<T>,<LT>,<LN>,<AL>,<SP>,<AC>,<DC>,<RP>,<HD>,<SV>,<HP>,<MI>,<MG>,<BV>,<CQ>,<GS>,<GT>,<FL>[,<SEQ>]##
+        //
+        //        Event Number:
+        //        4001: Periodic location reporting with ignition ON
+        //        4002: Periodic location reporting with ignition OFF
+        //        6001: Direction change alert
+        //        6002: Speed threshold alert
+        //        6003: RPM threshold alert
+        //        6005: Mileage threshold alert is exceeded
+        //        6006: Acceleration alert
+        //        6007: Deceleration alert
+        //        6008: Battery threshold alert
+        //        6012: Ignition OFF alert
+        //        6016: Idle Time threshold alert
+        //        6017: Towing Start alert
+        //        6018: Towing Stop alert
+        //        6030: Movement Start alert
+        //        6031: Movement Stop alert
+        //        6032: Park Time threshold alert
+        //
+        //        Syntax Field Definition:
+        //        <UID>: Unit ID – 15 digits IMEI
+        //        <EV#>: Four digit event code that triggered the message
+        //        <D>: UTC Date of trigger (10 characters – YYYY/MM/DD)
+        //        <T>:
+        //        UTC Time of trigger (8 characters – HH:MM:SS)
+        //        <LT>: Latitude (signed floating point number with 5 digits after decimal point)
+        //        <LN>: Longitude (signed floating point number with 5 digits after decimal point)
+        //        <AL>: Altitude (meters)
+        //        <SP>: Speed (mph) read from OBD
+        //        <AC>: Acceleration
+        //        <DC>: Deceleration
+        //        <RP> RPM read from OBD
+        //        <HD>: Heading (degrees)
+        //        <SV>: Number of satellites used for position fix
+        //        <HP>: HDOP (GPS accuracy figure of merit)
+        //        <MI>: Miles driven since last mileage threshold alert was sent. If disabled, this value will remain at zero
+        //        <MG>: Average fuel consumption in Miles/Gallon
+        //        <BV>: Battery voltage
+        //        <CQ>: GSM receive signal strength
+        //        <GS>: GPS status where 0=not locked, 1=locked, 2= no com and 3=GPS OFF power saving mode
+        //        <GT>: GPS Lost Lock Time, 5 digit resolution in minutes, 65535 max value
+        //        <FL>: Fuel Level
+        //        <XY> X=Geofence ID number and Y=1 is outside of fence violation and Y=2 is inside the fence violation
+        //        <FWM>: Main Firmware version
+        //        <FWO>: OBD Firmware version
+        //        <PF>: Profile Configuration is up to 7 alphanumeric characters. <FacDflt> and <Unknown> are unavailable
+        //        <VN>: Vehicle Identification Number
+        //        <SB>: Speed Band in which alert occurred
+        //        <SD>: Speed Band Duration: Time in seconds in band (65535 max value)
+        //        <Milstatus>: Malfunction Indicator Lamp, also known as the Check Engine light
+        //        <SEQ>: If UDPwAck mode is selected, SEQ is a 3 digit decimal sequence number from 0 to 255 which increments on each
+        //        successful UDP with Ack response from server. Field is always at end of string (prior to ##) for UDPwAck and is omitted
+        //        for TCP and UDP (w/o Ack) modes.
+        //
+        Print.logInfo("Parsing: " + s);
+
+        /* pre-validate */
+        if (StringTools.isBlank(s)) {
+            Print.logError("Packet string is blank/null");
+            return null;
+        } else
+        if (!s.startsWith("$")) {
+            Print.logError("Packet string does not start with '$'");
+            return null;
+        }
+
+        /* separate into fields */
+        String fld[] = StringTools.parseStringArray(s.substring(1), ',');
+        if ((fld == null) || (fld.length < PACKET_FIELD_COUNT)) {
+            Print.logWarn("Invalid number of fields");
+            return null;
+        }
+
+        /* parse individual fields */
+        String   modemID    = fld[0].toLowerCase();
+        String   eventCode  = fld[1];
+        long     fixtime    = Nmea0183.parseFixtime  (fld[2], fld[3], true);
+        double   latitude   = StringTools.parseDouble(fld[4],0.0);
+        double   longitude  = StringTools.parseDouble(fld[5],0.0);
+        double   altitudeM  = StringTools.parseDouble(fld[5],0.0);
+        double   speedMile  = StringTools.parseDouble(fld[6], 0.0);
+        double   speedKPH   = speedMile * KILOMETERS_PER_MILE;
+        double   aceleration = StringTools.parseDouble(fld[7], 0.0);
+        double   deceleration = StringTools.parseDouble(fld[8], 0.0);
+        double   heading    = StringTools.parseDouble(fld[9], 0.0);
+        double   vehicleID  = StringTools.parseDouble(fld[23], 0.0);
+
+        /* status code */
+        int      statusCode = StatusCodes.STATUS_LOCATION;
+
+        /* GPS Event */
+        this.gpsEvent = this.createGPSEvent(modemID);
+        if (this.gpsEvent == null) {
+            // errors already displayed
+            return null;
+        }
+
+        /* populate GPS event fields */
+        this.gpsEvent.setTimestamp(fixtime);
+        this.gpsEvent.setStatusCode(statusCode);
+        this.gpsEvent.setLatitude(latitude);
+        this.gpsEvent.setLongitude(longitude);
+        this.gpsEvent.setSpeedKPH(speedKPH);
+        this.gpsEvent.setHeading(heading);
+        this.gpsEvent.setAltitude(altitudeM);
+
+        /* insert/return */
+        if (this.parseInsertRecord_Common(this.gpsEvent)) {
+            // change this to return any required acknowledgement (ACK) packets back to the Device
+            return null;
+        } else {
+            return null;
+        }
     }
 
     /* final packet sent to Device before session is closed */
@@ -1343,8 +1474,8 @@ public class TrackClientPacketHandler
                     Print.sysPrintln("Unrecognized Data Format: %d", DATA_FORMAT_OPTION);
                     return _usage();
             }
-            for (int i = 0; i < data.length; i++) {
-                tcph.getHandlePacket(data[i].getBytes());
+            for (String aData : data) {
+                tcph.getHandlePacket(aData.getBytes());
             }
             return 0;
         }
