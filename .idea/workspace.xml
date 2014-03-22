@@ -710,7 +710,11 @@
       <created>1395491118940</created>
       <updated>1395491118940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Minor project changes">
+      <created>1395491251030</created>
+      <updated>1395491251030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -804,7 +808,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="&#10; Added Tomas Diewald's library for handling shape files&#10; See https://github.com/diwi/diewald_shapeFileReader&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10; Added Tomas Diewald's library for handling shape files&#10; See https://github.com/diwi/diewald_shapeFileReader&#10;" />
+    <MESSAGE value="Minor project changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor project changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
