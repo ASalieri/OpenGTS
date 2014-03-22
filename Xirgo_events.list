@@ -1,0 +1,69 @@
+$$<UID>,<EV#>,<D>,<T>,<LT>,<LN>,<AL>,<SP>,<AC>,<DC>,<RP>,<HD>,<SV>,<HP>,<MI>,<MG>,<BV>,<CQ>,<GS>,<GT>,<FL>[,<SEQ>]##
+Event Number:
+4001: Periodic location reporting with ignition ON
+4002: Periodic location reporting with ignition OFF
+6001: Direction change alert
+6002: Speed threshold alert
+6003: RPM threshold alert
+6005: Mileage threshold alert is exceeded
+6006: Acceleration alert
+6007: Deceleration alert
+6008: Battery threshold alert
+6012: Ignition OFF alert
+6016: Idle Time threshold alert
+6017: Towing Start alert
+6018: Towing Stop alert
+6030: Movement Start alert
+6031: Movement Stop alert
+6032: Park Time threshold alert
+
+$$<UID>,<EV#>,<D>,<T>,<LT>,<LN>,<AL>,<SP>,<AC>,<DC>,<RP>,<HD>,<SV>,<HP>,<MI>,<MG>,<BV>,<CQ>,<GS>,<FL>,<GT>[,<SEQ>]##
+Event Number: 6011: Ignition ON alert
+
+
+$$<UID>,<EV#>,<D>,<T>,<LT>,<LN>,<AL>,<SP>,<AC>,<DC>,<RP>,<HD>,<SV>,<HP>,<MI>,<MG>,<BV>,<CQ>,<GS>,<XY>,<GT>,<FL>[,<SEQ>]##
+
+$$<UID>,<EV#>,<D>,<T>,<LT>,<LN>,<AL>,<SP>,<AC>,<DC>,<RP>,<HD>,<SV>,<HP>,<MI>,<MG>,<BV>,<CQ>,<GS>,<VN>,<FWM>,<FWO>,<PF>,<GT>,<FL>[,<SEQ>]##
+
+$$<UID>,6036,<D>,<T>,<LT>,<LN>,<AL>,<SP>,<AC>,<DC>,<RP>,<HD>,<SV>,<HP>,<MI>,<MG>,<BV>,<CQ>,<GS>,<GT>,<FL>,<SB>,<SD>[,<SEQ>]##
+
+$$<UID>,6045,<D>,<T>,<LT>,<LN>,<AL>, <SV>,<HP>,<GS>,<GT>,<MilStatus>,<DTC Count>,<DTC_Code_1> ...<DTC_Code_n>[,<SEQ>]##
+
+$$<UID>,4050,<GSM>,<GPR>,<PDP>,<HOFF>,<HON>,<PU>,<R>,<%GPS>,<%GPSQ>,<%GSM>,<%GPR>,<%PDP>,<LV>,<HV>,<CX>,<DBO>,<ABI>,<DBI>,<SO>,<SI>,<SS>[,<SEQ>]##
+
+
+Syntax Field Definition:
+<UID>: Unit ID – 15 digits IMEI
+<EV#>: Four digit event code that triggered the message
+<D>: UTC Date of trigger (10 characters – YYYY/MM/DD)
+<T>:
+UTC Time of trigger (8 characters – HH:MM:SS)
+<LT>: Latitude (signed floating point number with 5 digits after decimal point)
+<LN>: Longitude (signed floating point number with 5 digits after decimal point)
+<AL>: Altitude (meters)
+<SP>: Speed (mph) read from OBD
+<AC>: Acceleration
+<DC>: Deceleration
+<RP> RPM read from OBD
+<HD>: Heading (degrees)
+<SV>: Number of satellites used for position fix
+<HP>: HDOP (GPS accuracy figure of merit)
+<MI>: Miles driven since last mileage threshold alert was sent. If disabled, this value will remain at zero
+<MG>: Average fuel consumption in Miles/Gallon
+<BV>: Battery voltage
+<CQ>: GSM receive signal strength
+<GS>: GPS status where 0=not locked, 1=locked, 2= no com and 3=GPS OFF power saving mode
+<GT>: GPS Lost Lock Time, 5 digit resolution in minutes, 65535 max value
+<FL>: Fuel Level
+<XY> X=Geofence ID number and Y=1 is outside of fence violation and Y=2 is inside the fence violation
+<FWM>: Main Firmware version
+<FWO>: OBD Firmware version
+<PF>: Profile Configuration is up to 7 alphanumeric characters. <FacDflt> and <Unknown> are unavailable
+<VN>: Vehicle Identification Number
+<SB>: Speed Band in which alert occurred
+<SD>: Speed Band Duration: Time in seconds in band (65535 max value)
+<Milstatus>: Malfunction Indicator Lamp, also known as the Check Engine light
+<SEQ>: If UDPwAck mode is selected, SEQ is a 3 digit decimal sequence number from 0 to 255 which increments on each
+successful UDP with Ack response from server. Field is always at end of string (prior to ##) for UDPwAck and is omitted
+for TCP and UDP (w/o Ack) modes.
+
