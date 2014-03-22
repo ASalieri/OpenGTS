@@ -79,5 +79,25 @@ public class StateTest {
         Assert.assertEquals("Pacific", stateInfo.stateSubRegion);
         Assert.assertEquals("HI", stateInfo.stateAbbreviation);
 
+        stateInfo = state.getStateInfoForPoint(-134.475204906, 58.2819504362);
+        Assert.assertEquals("Alaska", stateInfo.stateName);
+        Assert.assertEquals("Pacific", stateInfo.stateSubRegion);
+        Assert.assertEquals("AK", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-80.5273148586, 40.6174522697);
+        Assert.assertEquals("West Virginia", stateInfo.stateName);
+        Assert.assertEquals("South Atlantic", stateInfo.stateSubRegion);
+        Assert.assertEquals("WV", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-77.0115034503, 38.9049939726);
+        Assert.assertEquals("District of Columbia", stateInfo.stateName);
+        Assert.assertEquals("South Atlantic", stateInfo.stateSubRegion);
+        Assert.assertEquals("DC", stateInfo.stateAbbreviation);
+
+        stateInfo = state.getStateInfoForPoint(-77.0380901834, 38.8138719215);
+        Assert.assertEquals("Virginia", stateInfo.stateName);
+        Assert.assertEquals("South Atlantic", stateInfo.stateSubRegion);
+        Assert.assertEquals("VA", stateInfo.stateAbbreviation);
+
     }
 }
